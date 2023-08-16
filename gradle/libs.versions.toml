@@ -3,6 +3,7 @@
 [libraries]
 
 androidx-activity-compose = "androidx.activity:activity-compose:_"
+androidx-activity-ktx = "androidx.activity:activity-ktx:_"
 androidx-appcompat = "androidx.appcompat:appcompat:_"
 androidx-browser = "androidx.browser:browser:_"
 androidx-cardview = "androidx.cardview:cardview:_"

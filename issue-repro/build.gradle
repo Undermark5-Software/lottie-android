@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+//    id 'org.jetbrains.kotlin.kapt' version '1.8.21'
 }
 
 android {
@@ -15,10 +16,14 @@ android {
     }
     buildFeatures {
         viewBinding true
+        dataBinding true
     }
 }
 
 dependencies {
     implementation project(':lottie')
     implementation libs.androidx.appcompat
+    implementation libs.androidx.viewmodel.ktx
+    implementation libs.androidx.activity.ktx
+    implementation libs.androidx.constraintlayout
 }
